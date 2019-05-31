@@ -1,0 +1,101 @@
+
+
+header {
+    background-color: rgb(32,101,136);
+    padding-top: 12px;
+    padding-left: 12px; 
+}
+
+header img{
+    height: 30px; 
+    float:left;
+    padding-right: 10px; 
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8); 
+    padding-top: 10px;
+    padding-bottom: 12px; 
+    height: 12px;
+    font-size: 14px;    
+}
+
+nav a{
+    color: rgba(255,255,255,0.8);
+    text-decoration: none; 
+}
+
+.nav-bar {
+    padding-left: 12px; 
+}
+
+.profile-links{    
+    float: right;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 10px;
+    font-size: 14px; 
+
+}
+
+.profile-links li{
+    color: white; 
+    list-style: none;
+}
+
+.profile-links a:link{
+    text-decoration: none;
+    color:white; 
+}
+
+.searchterm {
+    width: 78%;
+    padding: 6px 0; 
+    line-height: 19px;
+    border: 2px solid #436E8F;
+    background-color: #1F5370;
+    color: #6A7A89;
+    border-right: none; 
+    
+}
+
+.search-button{
+    width: 35px;
+    height: 35px;
+    padding-top: 1px;
+    padding-left: 5px;
+    text-align: center; 
+    border: 2px solid #436E8F;
+    background-color:  #1F5370;
+    color: white; 
+    cursor: pointer;
+    position: absolute; 
+}
+.sign-up{
+    margin-top: 6px; 
+}
+
+ .top-links{
+   display: inline-block; 
+   float: right; 
+   padding: 0; 
+   margin: 0 20px 0 0; 
+}
+
+.top-links li{
+    display: inline-block; 
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;  
+}
+
+.top-left{
+    display: inline-block;
+    margin: 0 20px 0 0; 
+}
+
+
+
+
+
