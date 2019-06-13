@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  margin: 0; 
+  padding: 0; 
+}
+
+.bear-logo{
+    height: 1.4em;
+    float: right;
+    margin-right: 2px; 
+    }
+
+body {
+    background-color: white;
+    font-family: Roboto;
+    font-size: 18px;     
+}
+
+body a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.build-text{
+  width: 600px;
+  margin: 75px 140px; 
+}
+
+.build-text p{
+  width: 590px;
+  margin-top: 33px ;
+  letter-spacing: 1px; 
+}
+
+.build-button{
+  margin-top:45px;
+  background-color: rgb(240, 146, 51); 
+}
+
+.col {
+  float: left;
+  
+}
+
+.col-3 {
+  width: 30%; 
+}
+
+.col-middle {
+  margin-right: 3%; 
+  margin-left: 3%; 
+}
+
+.clearfix{
+  clear:both; 
+}
+.collab-button{
+ margin-top: 17px;
+ background-color: rgb(203, 56, 55);
+}
+
+.columns-text{
+text-align: center;
+margin-top: 40px;
+margin-left: 50px;
+}
+
+.columns-text p {
+  margin-top: 20px;
+  width: 275px;
+}
+
+.columns-text a{
+  color: rgb(208, 74, 73);
+  font-weight: 700; 
+}
+
+
+
+
+.collab-class{
+background-color: rgb(39, 53, 71);
+color: white; 
+height: 500px;
+padding-top: 0px; 
+position: relative; 
+}
+
+
+.collab-text{
+float: right; 
+margin: 60px 200px 0 600px; 
+height: auto;
+width: 650px; 
+position: absolute; 
+
+}
+
+.collab-class img{
+  width: 475px;
+  margin: 60px 2000px 0 55px; 
+  position: absolute;
+  
+}
+
+.collab-text h3{
+  width: 450px; 
+}
+
+.collab-text ul{
+  margin-top: 60px;
+  margin-left: 40px;
+  line-height: 45px; 
+}
+.collab-text p{
+  margin-top: 20px; 
+}
+
+
+
+h1 {
+  font-size: 2.9em;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2.1em;
+  letter-spacing: 1px;
+  font-weight: 500; 
+}
+
+h4 {
+  font-size: 1.3em; 
+  font-weight: 600;
+  letter-spacing: 2.5px; 
+}
+
+
+
+.header-class{
+    background-color: rgb(32, 101, 136);
+    overflow: auto;
+    height: 450px;
+    color: white;
+    background-image: url("images/city-scape.svg");
+    background-position: 0 0; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+.heart {
+    margin-right: 0.8em;
+}
+
+.log{
+  float: right;
+  width: 180px;
+  height: 2em;
+  margin-top: 6px;   
+ } 
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 11px;
+    height: 35px; 
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+  .npm-logo{
+      height: 2.1em;   
+  }
+
+  .registry-class{
+    margin: 0 auto;
+    height: 400px;
+    
+  }
+
+  .registry-class p{
+    display:inline-block;
+  }
+
+
+  .registry-text{
+   text-align: center;
+   margin-top: 70px;
+   
+
+  }
+.registry-text h4{
+  color: rgb(83, 88, 98);
+}
+  .registry-class p {
+    margin-top: 20px;
+    color: rgb(135, 145, 156);
+  }
+
+  .searchterm {
+    width: 77%;
+    padding: 6px; 
+    height: 24px;
+    border: 1px solid #436E8F;
+    background-color:rgb(31, 82, 111);
+    color: #6A7A89;
+    border-right: none;
+    font-size: 18px;
+    text-align: left;    
+}
+
+.search-bar-logo {
+  margin: .7em 1.2em auto 1em;
+}
+
+.search-button{
+    width: 38px;
+    height: 38px;
+    border: 1px solid #436E8F;
+    background-color:  #1F5370;
+    color: white; 
+    cursor: pointer;
+    position: absolute;  
+}
+
+
+
+.sign-up-button {
+  display: inline-block; 
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 20px; 
+}
+
+
+.sign-up-or-log-in {
+  position: absolute;
+  height: 1.4em;
+  width: 150px;
+  text-align: center;
+  color: white; 
+}
+
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .top-left{
+      display: inline-block;
+      margin-left: 1em;
+  }
+
+  .whatis-class{
+    background-image: url(images/forklift.svg);
+    overflow: auto;
+    height: 625px;
+    color: white;
+    background-position: 0 0; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;  
+      
+  }
+
+  .whatis-text{
+  margin-left: 110px;
+  margin-top: 145px;
+  width: 380px;
+  position: absolute; 
+   
+  }
+
+  .whatis-text p{
+   margin-top: 25px; 
+  }
+
+  .whatis-button{
+    background-color: rgb(49, 68, 88);
+    margin-top: 300px;
+    margin-left: 110px; 
+  }
+
+  .wrap {
+    display: inline-block;
+    margin-left: 1em ;
+    position: absolute;
+    min-width: 200px;
+    width: 1135px;
+    float: right; 
+  }
+
+  
+
